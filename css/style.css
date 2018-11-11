@@ -21,12 +21,9 @@ img {
 	z-index: 1;
 }
 
-.pmm-nav {
-	vertical-align: middle;
-}
-
 .nav-link {
-	color: #000;
+	color: #444;
+    /*background-color: #000;*/
 }
 
 a:hover {
@@ -41,13 +38,20 @@ a:hover {
     padding-right: 20px !important;
     padding-left: 20px !important;
     text-transform: uppercase;
-    padding-top: 18px;
+    padding-top: 14px;
 }
 
 .menu-icon {
 	max-width: 100%;
-    width: 16px;
-    margin-right: 5px;
+    width: 17px;
+    margin-right: 8px;
+    position: relative;
+    top: -0.5px;
+}
+
+.fix-align-svg-menu {
+    position: relative;
+    top: -0.8px;
 }
 
 .pink:hover {
