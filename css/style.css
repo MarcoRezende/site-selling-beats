@@ -197,7 +197,7 @@ a:hover {
 }
 
 .footer {
-    background-color: #606060;
+    background-color: rgb(96,96,96,0.8);
     padding: 20px 0 14px;
     color: #fff7f9;
     font-size: 11px;
