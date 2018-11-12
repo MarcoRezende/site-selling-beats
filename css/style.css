@@ -215,7 +215,15 @@ a:hover {
 }
 
 .social-footer {
+    margin-right: 30px;
+}
 
+.mr-dcma {
+    margin-left: 50px;
+}
+
+.mr-license-item {
+    padding-right: 30px;
 }
 
 .social-footer-item {
