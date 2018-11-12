@@ -116,7 +116,6 @@ a:hover {
 
 .boxed-more {
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
 }
 
 
@@ -125,9 +124,9 @@ a:hover {
 	padding: 10px;
 	line-height: 1.7;
 	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
-  font-size: 14px;
-  width: 100%;
+    color: #666;
+    font-size: 14px;
+    width: 100%;
 }
 
 .price {
