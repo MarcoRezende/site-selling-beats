@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -8,7 +8,7 @@
     top: 0;
     right: 0;
     left: 0;
-    transition: all .5s cubic-bezier(0.2, .84, .5, 1);
+    transition: all .8s cubic-bezier(0.2, .84, .5, 1);
     transform-origin:0 0;
     transform: translate3d(0px, 0px, 0px);
     -webkit-backface-visibility: hidden;

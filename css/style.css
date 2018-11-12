@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
 	font-family: 'Montserrat', 'Raleway', sans-serif;
 }
@@ -21,9 +23,12 @@ img {
 	z-index: 1;
 }
 
+.pmm-nav {
+    margin-right: 75px;
+}
+
 .nav-link {
 	color: #444;
-    /*background-color: #000;*/
 }
 
 a:hover {
@@ -35,10 +40,9 @@ a:hover {
 	color: #444;
     font-size: 13px;
     font-weight: 600;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
+    padding: 14px 10px 0;
     text-transform: uppercase;
-    padding-top: 14px;
+    padding-top: 13.5px;
 }
 
 .menu-icon {
@@ -61,6 +65,7 @@ a:hover {
 .pmm-logo {
 	max-width: 100%;
 	width: 150px;
+    margin-left: 75px;
 }
 
 .audio-player-pmm {
@@ -106,8 +111,14 @@ a:hover {
 
 .boxed {
 	margin: 10px 0;
-  width: 100%;
+    width: 100%;
 }
+
+.boxed-more {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
 
 .pricing-col-item {
 	display: list-item;
@@ -183,6 +194,45 @@ a:hover {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+.footer {
+    background-color: #606060;
+    padding: 20px 0 14px;
+    color: #fff7f9;
+    font-size: 11px;
+    letter-spacing: 1px;
+    max-height: 100%;
+}
+
+.footer-copyright {
+    width: 100%;
+}
+
+.img-copyright {
+    max-width: 100%;
+    width: 64px;
+}
+
+.social-footer {
+
+}
+
+.social-footer-item {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.twitter-icon-footer:hover {
+    fill: #00a;
+}
+
+.instagram-icon-footer:hover {
+    fill: #00a;
+}
+
+.facebook-icon-footer:hover {
+    fill: #00a;
 }
 
 /* separator */

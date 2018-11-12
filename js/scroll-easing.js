@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $('.flat-button').click(function() {
         $(".smooth").clearQueue().css({
-            transform: 'translate3d(0px, -' + $('.toggle').offset().top + 'px, 0px)'
+            transform: 'translate3d(0px, -' + $('.toggle').offset().top + 'px, 50px)'
         });
         $(window).scrollTop($('.toggle').offset().top);
         return false;
@@ -23,7 +23,7 @@ var scroll = window.requestAnimationFrame ||
     window.oRequestAnimationFrame ||
     // IE Fallback, you can even fallback to onscroll
     function(callback) {
-        window.setTimeout(callback, 1000 / 60)
+        window.setTimeout(callback, 1000 / 600)
     };
 
 function loop() {
@@ -33,15 +33,15 @@ function loop() {
         scroll(loop);
         return false;
     } else lastPosition = window.pageYOffset;
-  
-    var transform = 'translate3d(0px, -' + lastPosition + 'px, 0px)';
+
+    var transform = 'translate3d(0px, -' + lastPosition + 'px - 500px, 50px)';
     var smoothScoll = $(".smooth")[0];
-  
+
     smoothScoll.style.webkitTransform = transform;
     smoothScoll.style.mozTransform = transform;
     smoothScoll.style.transform = transform;
-    
-  
+
+
     scroll(loop)
 }
 
