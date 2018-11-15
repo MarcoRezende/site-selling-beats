@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $('.flat-button').click(function() {
         $(".smooth").clearQueue().css({
-            transform: 'translate3d(0px, -' + $('.toggle').offset().top + 'px, 50px)'
+            transform: 'translate3d(0px, -' + $('.toggle').offset().top + 'px, 0px)'
         });
         $(window).scrollTop($('.toggle').offset().top);
         return false;
@@ -34,7 +34,7 @@ function loop() {
         return false;
     } else lastPosition = window.pageYOffset;
 
-    var transform = 'translate3d(0px, -' + lastPosition + 'px - 500px, 50px)';
+    var transform = 'translate3d(0px, -' + lastPosition + 'px, 0px)';
     var smoothScoll = $(".smooth")[0];
 
     smoothScoll.style.webkitTransform = transform;
