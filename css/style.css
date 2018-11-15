@@ -230,29 +230,11 @@ a:hover {
     padding-right: 5px;
 }
 
-.twitter-icon-footer {
+.icon-footer {
     transition: all 0.7s;
 }
 
-.twitter-icon-footer:hover {
-    fill: #e1e8ed;
-    transition: fill 0.2s;
-}
-
-.instagram-icon-footer {
-    transition: all 0.7s;
-}
-
-.instagram-icon-footer:hover {
-    fill: #e1e8ed;
-    transition: fill 0.2s;
-}
-
-.facebook-icon-footer {
-    transition: all 0.7s;
-}
-
-.facebook-icon-footer:hover {
+.icon-footer:hover {
     fill: #e1e8ed;
     transition: fill 0.2s;
 }
