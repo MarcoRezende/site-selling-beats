@@ -20,15 +20,23 @@ img {
 	height: 70px;
 	position: fixed;
 	border-bottom: 1px solid #ddd;
-	z-index: 1;
+	z-index: 2;
 }
 
 .pmm-nav {
-    margin-right: 75px;
+    margin-right: 0px;
 }
 
 .nav-link {
 	color: #444;
+}
+
+.display {
+    display: initial;
+}
+
+.displayOff {
+    display: none
 }
 
 a:hover {
@@ -71,15 +79,6 @@ a:hover {
 .audio-player-pmm {
 	position: relative;
 	top: -200px;
-}
-
-.title {
-	color: #fff;
-	font-weight: bolder;
-	font-size: 24px;
-	font-family: 'Shadows Into Light', cursive;
-	position: relative;
-	top: 50px;
 }
 
 .underline:after {
@@ -238,6 +237,17 @@ a:hover {
     fill: #e1e8ed;
     transition: fill 0.2s;
 }
+
+/* Colors */
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
 
 /* separator */
 
@@ -536,4 +546,13 @@ a:hover {
   .fix-rezise-wav-premium {
     font-size: 8.5px;
   }
+}
+
+@media screen and (max-width: 952px) {
+    .display {
+        display: none;
+    }
+    .nav-item {
+        font-size: 0;
+    }
 }

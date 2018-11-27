@@ -13,7 +13,8 @@
     <link href="audio_player/stylesheets/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/dist/hamburgers.css">
+	<link rel="stylesheet" type="text/css" href="css/dist/hamburgers.min.csss">
 
 	<title>PMM</title>
 </head>
@@ -22,11 +23,11 @@
 		<div class="row bg-pmm">
 			<div class="col-md-4"><img class="pmm-logo" src="img/pmm-logo2.png" alt="Logo"></div>
 			<div class="col-md-8">
-				<ul class="nav justify-content-end pmm-nav text-uppercase">
-				    <li class="nav-item">
+				<ul class="nav justify-content-end pmm-nav text-uppercase" id="pmm-nav">
+				    <li class="nav-item display">
 				    	<a class="nav-link" href="#">
 						    <svg class="menu-icon fix-align-svg-menu" enable-background:new 0 0 16 16 version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							width="32px" height="34px" viewBox="0 0 30 30"
+							width="32px" height="32px" viewBox="0 0 30 30"
 							xml:space="preserve"><path d="M11.614,25.866c-0.557,0-1.039-0.248-1.152-0.793L8.901,17.6l-1.028,1.774c-0.211,0.359-0.597,0.613-1.012,0.613H1.176
 							C0.527,19.987,0,19.46,0,18.813c0-0.65,0.527-1.178,1.176-1.178h5.013l2.235-3.777c0.247-0.417,0.721-0.644,1.205-0.562
 							c0.479,0.08,0.86,0.446,0.958,0.921l0.945,4.566l2.155-11.956c0.101-0.56,0.588-0.949,1.158-0.949c0.001,0,0.004,0,0.005,0
@@ -36,17 +37,17 @@
 							C11.624,25.866,11.619,25.866,11.614,25.866z"/></svg>Beats
 						</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item display">
 				    	<a class="nav-link" href="#">
 				    		<svg class="menu-icon" data-name="mk-moon-stack-music" data-cacheid="icon-5bd475a04c1a5" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 512 512"><path d="M160 32v36.948l-83.808 11.778 5.444 38.74-81.636 23.409 105.845 369.125 326.033-93.488 17.87-2.512h62.252v-384h-352zm-34.272 444.13l-89.858-313.371 49.843-14.292 43.922 312.522 95.897-13.479-99.804 28.62zm28.588-47.895l-45.37-322.828 51.054-7.174v317.767h81.375l-87.059 12.235zm325.684-44.235h-288v-320h288v320zm-208-32c-26.51 0-48-21.49-48-48s21.49-48 48-48c5.611 0 10.994.972 16 2.742v-130.742l160-32v176c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.509 21.49-48 48-48 5.611 0 10.994.972 16 2.742v-60.342l-96 19.2v118.4c0 26.51-21.49 48-48 48z"></path></svg>KITS
 						</a>
 				    </li>
-				    <li class="nav-item">
+				    <li class="nav-item display">
 				    	<a class="nav-link" href="#">
 				    		<svg class="menu-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 44 44"><path d="M43,6H1C0.447,6,0,6.447,0,7v30c0,0.553,0.447,1,1,1h42c0.552,0,1-0.447,1-1V7C44,6.447,43.552,6,43,6z M42,33.581     L29.612,21.194l-1.414,1.414L41.59,36H2.41l13.392-13.392l-1.414-1.414L2,33.581V8h40V33.581z"/><path d="M39.979,8L22,25.979L4.021,8H2v0.807L21.293,28.1c0.391,0.391,1.023,0.391,1.414,0L42,8.807V8H39.979z"/>
 				    		</svg>Contact</a>
 				    </li>
-				    <li class="nav-item">
+				    <li class="nav-item display">
 				    	<a class="nav-link" href="#">
 				    		<svg class="menu-icon" version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 56.414 56.414" style="enable-background:new 0 0 56.414 56.414;" xml:space="preserve"><path d="M56.414,11.089L45.299,0H31.295l-5.519,5.501C12.053,4.356,0.988,12.076,0.833,12.187c-0.449,0.32-0.554,0.945-0.232,1.395
 							C0.796,13.854,1.103,14,1.415,14c0.201,0,0.404-0.061,0.58-0.187c0.139-0.099,9.712-6.776,21.881-6.419L5.999,25.213l0.008,0.008
@@ -63,11 +64,24 @@
 							</svg>Pricing
 						</a>
 				    </li>
+				    <li class="nav-item displayOff float-right" id="hamburger-icon">
+					    <div class="btn-group">
+						<button type="button" class="hamburger btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  						<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+							</span>
+						</button>
+						<div class="dropdown-menu">
+							<a class="nav-link dropdown-item" href="#">Beats</a>
+							<a class="nav-link dropdown-item" href="#">Kits</a>
+							<a class="nav-link dropdown-item" href="#">Contact</a>
+							<a class="nav-link dropdown-item" href="#">Pricing</a>
+						</div>
+						</div>
+					</li>
 				</ul>
-
 			</div>
 		</div>
-		<div class="smooth">
 		<div class="row">
 			<figure>
 				<picture>
@@ -78,7 +92,6 @@
 		<section class="row">
 			<div class="col-md-12">
 				<div class="audio-player-pmm">
-						<h2 class="text-center title underline text-uppercase">Last Release</h2>
 						<div id="audio-player" class="audio-player-wrapper">
 						      <div class="audio-player-image">
 						        <span class="audio-player-song-name"></span>
@@ -231,8 +244,6 @@
 				</div>
 			</section>
 		</div>
-
-		</div>
 		<footer class="row footer ">
 			<div class="col-md-12 ">
 				<div class="row">
@@ -307,10 +318,11 @@
 
 	<!-- js -->
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="bootstrap/js/bootstrap.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <script src="audio_player/javascripts/all.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
