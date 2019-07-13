@@ -1,0 +1,63 @@
+/* Pricing rezise @media */
+
+@media screen and (min-width: 996px) {
+  .pmm-logo {
+    display: initial;
+  }
+}
+
+@media screen and (max-width: 995px) and (min-width: 768px) {
+  .price {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 300; }
+  .mp3-title {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    font-family: 'Raleway', sans-serif; }
+  a.purchase-link {
+    font-size: 10px; }
+  .pricing-col-item {
+    display: list-item;
+    padding: 10px;
+    line-height: 1.7;
+    font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 10px;
+    width: 100%; }
+  .fix-rezise-wav-premium {
+    font-size: 8.5px; } }
+
+@media screen and (max-width: 952px) and (min-width: 767px) {
+  .nav-item {
+    font-size: 10px;
+    margin: 0;
+    padding: 14px 0;
+  }
+  .pmm-logo {
+    display: initial;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 463px) {
+  .nav-item {
+    font-size: 12px;
+    margin: 0;
+    padding: 14px 0;
+  }
+  .pmm-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .nav-item {
+    font-size: 0px;
+    margin: 0;
+    padding: 14px 5px;
+  }
+  .pmm-logo {
+    display: none;
+  }
+}

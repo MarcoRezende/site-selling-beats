@@ -1,0 +1,558 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	font-family: 'Montserrat', 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.bg-pmm {
+	background-color: #fff;
+	max-width: 100%;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	border-bottom: 1px solid #ddd;
+	z-index: 2;
+}
+
+.pmm-nav {
+    margin-right: 0px;
+}
+
+.nav-link {
+	color: #444;
+}
+
+.display {
+    display: initial;
+}
+
+.displayOff {
+    display: none
+}
+
+a:hover {
+    color: #ff2c48;
+    fill: #ff2c48;
+}
+
+.nav-item {
+	color: #444;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 14px 10px 0;
+    text-transform: uppercase;
+    padding-top: 13.5px;
+}
+
+.menu-icon {
+	max-width: 100%;
+    width: 17px;
+    margin-right: 8px;
+    position: relative;
+    top: -0.5px;
+}
+
+.fix-align-svg-menu {
+    position: relative;
+    top: -0.8px;
+}
+
+.pink:hover {
+	fill: #ff2c48;
+}
+
+.pmm-logo {
+	max-width: 100%;
+	width: 150px;
+    margin-left: 75px;
+}
+
+.audio-player-pmm {
+	position: relative;
+	top: -200px;
+}
+
+.underline:after {
+	content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 5%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #fff; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.full-center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buy-button {
+	margin: 10px auto;
+}
+
+.pricing-col {
+  width: 100%;
+}
+
+.pricing-wrapper {
+	padding: 48px 32px;
+	background: #f8f8f8;
+}
+
+.boxed {
+	margin: 10px 0;
+    width: 100%;
+}
+
+.boxed-more {
+    padding-bottom: 20px;
+}
+
+
+.pricing-col-item {
+	display: list-item;
+	padding: 10px;
+	line-height: 1.7;
+	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+}
+
+.price {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #292929;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.mp3-title {
+	letter-spacing: 2px;
+    margin-right: -2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.beats {
+	margin-bottom: 50px;
+
+}
+
+/* Botão */
+
+.btn-buy {
+  color: #fff;
+  background-color: #ff2c48;
+  border-color: #ff2c48;
+  font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-buy:hover {
+  color: #fff;
+  background-color: rgb(216, 36, 60);
+  border-color: rgb(216, 36, 60);
+}
+
+.btn-buy:not(:disabled):not(.disabled):active, .btn-buy:not(:disabled):not(.disabled).active,
+.show > .btn-buy.dropdown-toggle {
+  color: #fff;
+  background-color: #ff2c48;
+  border-color: rgb(216, 36, 60);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.footer {
+    background-color: rgba(96,96,96,0.8);
+    padding: 20px 0 14px;
+    color: #fff7f9;
+    font-size: 11px;
+    letter-spacing: 1px;
+    max-height: 100%;
+}
+
+.footer-copyright {
+    width: 100%;
+}
+
+.img-copyright {
+    max-width: 100%;
+    width: 64px;
+}
+
+.social-footer {
+    margin-right: 30px;
+}
+
+.mr-dcma {
+    margin-left: 50px;
+}
+
+.mr-license-item {
+    padding-right: 30px;
+}
+
+.social-footer-item {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.icon-footer {
+    transition: all 0.7s;
+}
+
+.icon-footer:hover {
+    fill: #e1e8ed;
+    transition: fill 0.2s;
+}
+
+/* Colors */
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+
+/* separator */
+
+.vc_separator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.vc_separator h4 {
+    line-height: 1em;
+    font-size: 100%;
+    margin: 0;
+    word-wrap: break-word;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto
+}
+
+.vc_separator h4 .normal {
+    font-size: 12px;
+    font-weight: 400
+}
+
+.vc_separator .vc_sep_holder {
+    height: 1px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 10%
+}
+
+.vc_separator .vc_sep_holder .vc_sep_line {
+    height: 1px;
+    border-top: 1px solid #EBEBEB;
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%
+}
+
+.vc_separator.vc_separator_align_left .vc_sep_holder.vc_sep_holder_l,
+.vc_separator.vc_separator_align_right .vc_sep_holder.vc_sep_holder_r {
+    display: none
+}
+
+.vc_separator.vc_separator_align_center h4 {
+    padding: 0 .8em
+}
+
+.vc_separator.vc_separator_align_left h4 {
+    padding: 0 .8em 0 0
+}
+
+.vc_separator.vc_separator_align_right h4 {
+    padding: 0 0 0 .8em;
+    margin: 0!important
+}
+
+.vc_separator.vc_sep_double {
+    height: 3px
+}
+
+.vc_separator.vc_sep_double .vc_sep_line {
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    height: 3px
+}
+
+.vc_separator.vc_sep_dashed .vc_sep_line {
+    border-top-style: dashed
+}
+
+.vc_separator.vc_sep_dotted .vc_sep_line {
+    border-top-style: dotted
+}
+
+.vc_separator.vc_sep_shadow .vc_sep_line {
+    border: none;
+    position: relative;
+    height: 20px;
+    top: 0;
+    overflow: hidden
+}
+
+.vc_separator.vc_sep_shadow .vc_sep_line::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    right: 0;
+    height: 10px;
+    border-radius: 100%
+}
+
+.vc_separator.vc_sep_shadow .vc_sep_holder_l .vc_sep_line::after {
+    right: -100%;
+    box-shadow: 10px 10px 10px 1px
+}
+
+.vc_separator.vc_sep_shadow .vc_sep_holder_r .vc_sep_line::after {
+    left: -100%;
+    box-shadow: -10px 10px 10px 1px
+}
+
+.vc_separator.vc_separator_no_text:not(.vc_sep_shadow) .vc_sep_holder_l {
+    width: 100%
+}
+
+.vc_separator.vc_separator_no_text:not(.vc_sep_shadow) .vc_sep_holder_r {
+    display: none
+}
+
+.vc_separator .vc_icon_element {
+    margin-bottom: 0
+}
+
+.vc_separator .vc_icon_element:not(.vc_icon_element-have-style)+h4 {
+    padding-left: 0
+}
+
+.vc_separator .vc_icon_element:not(.vc_icon_element-have-style) .vc_icon_element-size-xl {
+    margin-left: .8em;
+    margin-right: .8em
+}
+
+
+.vc_text_separator,
+.wpb_separator {
+    border-bottom: 1px solid #EBEBEB;
+    clear: both;
+    height: 1px
+}
+
+.vc_sep_width_100,
+.wpb_single_image img.vc_img-placeholder {
+    width: 100%
+}
+
+.vc_sep_pos_align_center {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.vc_sep_pos_align_left {
+    margin-left: 0;
+    margin-right: auto
+}
+
+.vc_sep_pos_align_right {
+    margin-left: auto;
+    margin-right: 0
+}
+
+.vc_text_separator div {
+    display: inline-block;
+    background-color: #FFF;
+    padding: 1px 1em;
+    position: relative;
+    top: -9px
+}
+
+.separator_align_left {
+    text-align: left
+}
+
+.separator_align_right {
+    text-align: right
+}
+
+.vc_icon_element {
+    line-height: 0;
+    font-size: 14px;
+    margin-bottom: 35px
+}
+
+.vc_icon_element.vc_icon_element-outer {
+    box-sizing: border-box;
+    text-align: center
+}
+
+.vc_icon_element.vc_icon_element-outer.vc_icon_element-align-left {
+    text-align: left
+}
+
+.vc_icon_element.vc_icon_element-outer.vc_icon_element-align-center {
+    text-align: center
+}
+
+.vc_icon_element.vc_icon_element-outer.vc_icon_element-align-right {
+    text-align: right
+}
+
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid transparent;
+    width: 4em;
+    height: 4em;
+    box-sizing: content-box;
+    position: relative
+}
+
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_icon_element-icon {
+    font-size: 2.15em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1!important;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    -webkit-font-language-override: normal;
+    font-language-override: normal;
+    -webkit-font-kerning: auto;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant: normal;
+    text-rendering: auto;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_icon_element-icon:before {
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    width: inherit;
+    height: inherit;
+    font-size: 1em;
+    text-align: center;
+    text-rendering: optimizelegibility
+}
+
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_gitem-link,
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner .vc_icon_element-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    box-sizing: content-box;
+    border: none
+}
+
+/* Pricing rezise @media */
+
+@media screen and (max-width: 995px) and (min-width: 768px) {
+  .price {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 300;
+  }
+  .mp3-title {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    font-family: 'Raleway', sans-serif;
+  }
+  a.purchase-link {
+    font-size: 10px;
+  }
+  .pricing-col-item {
+    display: list-item;
+    padding: 10px;
+    line-height: 1.7;
+    font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 10px;
+    width: 100%;
+  }
+  .fix-rezise-wav-premium {
+    font-size: 8.5px;
+  }
+}
+
+@media screen and (max-width: 952px) {
+    .display {
+        display: none;
+    }
+    .nav-item {
+        font-size: 0;
+    }
+}
